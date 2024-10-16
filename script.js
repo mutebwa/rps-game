@@ -28,7 +28,7 @@ function getHumanChoice() {
     }
 }
 
-function playGame() {
+function playGameAuto() {
     let humanChoice, computerChoice;
     let humanScore = 0; let computerScore = 0;
     while(humanScore < 5 && computerScore < 5) {

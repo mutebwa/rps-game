@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissor Game</title>
-    <script src="./script.js" ></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <h1>Rock Paper Scissor</h1>
+    <img class="introimg" src="images/intro-logo.png" alt="">
+    <div class="info">
+        <p>
+            Rock, paper, scissors (also known as Rochambeau, Roshambo, or Janken) is a fun and easy hand game that anyone can learn and enjoy. 
+            It's a great way to make minor decisions when you and a friend can't agree on something, or even just an entertaining way to pass the time. 
+            The neat thing about the game is that almost anybody can pick the rules up in a matter of seconds
+        </p>
+    </div>
+    <div class="scoreboard"></div>
+    <div class="choices" >
+        <button type="button" class="rock">Rock</button>
+        <button type="button" class="paper">Paper</button>
+        <button type="button" class="scissor">Scissor</button>
+        <div class="picks">
+            <img class="cpu" src="images/cpu.png" alt="">
+            <img class="person" src="images/player.jpeg" alt="">
+        </div>
+    </div>
+    <input type="number" min="0" max="13" placeholder="Which winning score do you want?">
+    <div class="round">
+        <button type="button" class="start">Start</button>
+        <button type="button" class="reset">Reset</button>
+    </div>
+    <div class="console">
+        <h2>Game Console</h2>
+        <ul class="logger" style="list-style: none;">
+            <li>This is the beginning of the game</li>
+        </ul>
+    </div>
+    <script src="game.js" ></script>
 </body>
 </html>

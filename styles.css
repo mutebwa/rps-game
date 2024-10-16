@@ -1,0 +1,20 @@
+* {
+    background-color: cadetblue;
+    color: black;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.picks {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .introimg {
+    align-items: center;
+    width: 50px;
+    height: auto;
+} */
